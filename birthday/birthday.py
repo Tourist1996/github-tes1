@@ -51,7 +51,6 @@ def get_birthdays_per_week (users):
     print(next_week)
     #end = start + timedelta(days=6)
     #next_week =start
-    
     two_weeks= next_week + timedelta(7)
     print(two_weeks)
     for name in users:
